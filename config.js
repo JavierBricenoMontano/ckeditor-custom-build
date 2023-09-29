@@ -40,4 +40,6 @@ CKEDITOR.editorConfig = function (config) {
   config.removeDialogTabs = "image:advanced;link:advanced";
 
   config.extraPlugins = "contextmenu,floatpanel,panel,menu,openlink";
+
+  config.openlink_enableReadOnly = true;
 };
