@@ -39,7 +39,7 @@ CKEDITOR.editorConfig = function (config) {
   // Simplify the dialog windows.
   config.removeDialogTabs = "image:advanced;link:advanced";
 
-  config.extraPlugins = "contextmenu,floatpanel,panel,menu,openlink";
+  config.extraPlugins = "contextmenu,floatpanel,panel,menu,openlink,editorplaceholder";
 
   config.openlink_enableReadOnly = true;
 };
